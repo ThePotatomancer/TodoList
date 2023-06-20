@@ -7,7 +7,7 @@ import { logInfo } from "../../Common/logger";
 import { tasksRouter } from "./tasks.router";
 import { TasksProxy } from "./tasks.proxy";
 
-const port = Number.parseInt(process.env.PORT || "3000");
+const port = Number.parseInt(process.env.PORT || "3001");
 const connectionString = process.env.MONGO_CONNECTION_STRING || "mongodb://localhost:27017/";
 const database = "Todo";
 const tasksCollection = "tasks";

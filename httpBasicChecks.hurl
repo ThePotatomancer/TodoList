@@ -1,4 +1,4 @@
-POST http://localhost:3000/task
+POST http://localhost:3001/task
 {
     "task": {
         "title": "do this",
@@ -7,9 +7,9 @@ POST http://localhost:3000/task
     }
 }
 
-GET http://localhost:3000/tasks
+GET http://localhost:3001/tasks
 
-PUT http://localhost:3000/task
+PUT http://localhost:3001/task
 {
     "task": {
         "title": "do this",
@@ -19,4 +19,4 @@ PUT http://localhost:3000/task
     }
 }
 
-GET http://localhost:3000/tasks
+GET http://localhost:3001/tasks

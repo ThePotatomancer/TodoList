@@ -5,5 +5,5 @@ export const taskSchema = joi.object<Task>({
     title: joi.string().required(),
     description: joi.string().required(),
     completionStatus: joi.string().required().valid(...completionStatus),
-    dueDate: joi.date().optional()
+    dueDate: joi.number().optional()
 });
